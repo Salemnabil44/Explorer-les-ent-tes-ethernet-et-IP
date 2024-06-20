@@ -1,18 +1,18 @@
-- **L'adresse MAC source** : <div style="text-align: right; display: inline-block;">00 12 17 41 c2 c7</div>
-- **L'adresse MAC destination** : <div style="text-align: right; display: inline-block;">00 1a 73 24 44 89</div>
-- **L’EtherType** : <div style="text-align: right; display: inline-block;">08 00</div>
+- **L'adresse MAC source** : 00 12 17 41 c2 c7
+- **L'adresse MAC destination** : 00 1a 73 24 44 89
+- **L’EtherType** : 08 00
 
 ### Le contenu de l'en-tête IP, soit:
 
-- **La version du protocole** : <div style="text-align: right; display: inline-block;">4</div>
-- **L’IHL** : <div style="text-align: right; display: inline-block;">5</div>
-- **Le service** : <div style="text-align: right; display: inline-block;">00</div>
-- **La longueur totale du datagramme IP (en décimal, pas en hexadécimal)** : <div style="text-align: right; display: inline-block;">443 (01 bb)</div>
-- **L'identifiant affecté au datagramme** : <div style="text-align: right; display: inline-block;">da c2</div>
-- **Les flags** : <div style="text-align: right; display: inline-block;">40</div>
-- **Les offsets** : <div style="text-align: right; display: inline-block;">00</div>
-- **La valeur du champ TTL** : <div style="text-align: right; display: inline-block;">3c</div>
-- **Le contenu du champ protocole. En déduire le protocole encapsulé dans le paquet IP** : <div style="text-align: right; display: inline-block;">06 => protocole TCP</div>
-- **Le checksum** : <div style="text-align: right; display: inline-block;">fc 9d</div>
-- **L'adresse IP source (en format décimal)** : <div style="text-align: right; display: inline-block;">213.228.0.42 (d5 e4 00 2a)</div>
-- **L'adresse IP de destination (en format décimal)** : <div style="text-align: right; display: inline-block;">62.147.81.59 (3e 93 51 3B)</div>
+- **La version du protocole** : 4
+- **L’IHL** : 5
+- **Le service** : 00
+- **La longueur totale du datagramme IP (en décimal, pas en hexadécimal)** : 443 (01 bb)
+- **L'identifiant affecté au datagramme** : da c2
+- **Les flags** : 40
+- **Les offsets** : 00
+- **La valeur du champ TTL** : 3c
+- **Le contenu du champ protocole. En déduire le protocole encapsulé dans le paquet IP** : 06 => protocole TCP
+- **Le checksum** : fc 9d
+- **L'adresse IP source (en format décimal)** : 213.228.0.42 (d5 e4 00 2a)
+- **L'adresse IP de destination (en format décimal)** : 62.147.81.59 (3e 93 51 3B)
